@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario</title>
+</head>
+
+<body>
+    <!-- Este es mediafire -->
+    <header>
+        <a href="https://www.mediafire.com/">
+            <img src="mediafire.jpg" width="150"
+                alt="Logo mediafire">
+        </a>
+    </header>
+    <h5>Already have an account?
+        <a href="login.html" target="_blank">
+            Log in
+        </a>
+    </h5>
+    <h5>First Name</h5>
+    <form method="get" action="">
+        <input type="text" name="First Name" placeholder="First Name" required>
+        <br>
+        <h5>Last Name</h5>
+        <input type="text" name="LastName" placeholder="Last Name" required>
+        <br>
+        <h5>Email</h5>
+        <input type="email" name="Email" placeholder="Email" id="Email" required>
+        <br>
+        <h5>Password</h5>
+        <input type="password" name="password" placeholder="password" id="password">
+        <br>
+        <h3 style="text-align: center;"><b>Why are you creating a new MediaFire account?</b></h3>
+        <br>
+        <select name="option" id="option" required>
+            <option value="">Select an option...</option>
+            <option value="1">personal</option>
+            <option value="2">education</option>
+            <option value="3">work</option>
+        </select>
+        <br>
+        <h3><b>How do you plan to use your new account? (check all that apply)</b></h3>
+        <br>
+        <input type="checkbox" name="Download content" id="Download content">
+        <label for="Download content">Download content</label>
+        <br>
+        <input type="checkbox" name="Share content" id="Share content">
+        <label for="Share content">Share content</label>
+        <br>
+        <input type="checkbox" name="Backup / Online storage" id="Backup / Online storage">
+        <label for="Backup / Online storage">Backup / Online storage</label>
+        <br>
+        <textarea name="informacion" disabled>
+            MediaFire’s Privacy Policy and User Notice
+            Introduction
+            MediaFire recognizes and believes that data privacy is essential to all Internet users, and the privacy of
+            
+        </textarea>
+        <br>
+        <input type="checkbox" name="terminos" id="terminos">
+        <label for="terminos">I have read and agree to the <a
+                href="https://www.mediafire.com/policies/privacy_policy.php" target="_blank">Privacy Policy</a> and <a
+                href="https://www.mediafire.com/policies/terms_of_service.php" target="_blank">Terms of
+                Service.</a></label></label>
+        <br>
+        <br>
+        <button type="submit">Create account & continue</button>
+    </form>
+</body>
+
+</html>
